@@ -14,3 +14,25 @@ $('.slider1').slick({
     autoplay: true,
     dots: true,
 });
+$('.section1-slider').slick({
+    arrows: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    variableWidth: true,
+    dots: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4,
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 2,
+            }
+        }
+    ]
+});

@@ -4,7 +4,8 @@
      /* font size */
      --fs-sm1: 14px;
      --fs-sm2: 16px;
-     --fs-md: 22px;
+     --fs-md: 18px;
+     /*22px*/
      --fs-lg: 40px;
      --fs-xl: 32px;
      /*52px*/
@@ -93,10 +94,6 @@
  }
 
  /* opacity */
- .opacity50 {
-     opacity: 0.5;
- }
-
  .opacity70 {
      opacity: 0.7;
  }
@@ -298,7 +295,7 @@
      background: var(--c1);
      filter: blur(75px);
      top: 16px;
-     left: 54px;
+     left: 0;
  }
 
  .ball1 {
@@ -406,6 +403,109 @@
      animation-iteration-count: infinite;
  }
 
+ /* main */
+ /* section1 */
+ .custom-container2 {
+     max-width: 1214px !important;
+ }
+
+ .section1-height {
+     min-height: 661px;
+ }
+
+ .resume5 {
+     border-radius: 18px;
+     box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.15);
+     height: 335px;
+ }
+
+ .section1-slider-item {
+     border-radius: 8px;
+     border: 1px solid rgba(0, 0, 0, 0.03);
+     background: #FFF;
+     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.04);
+     height: 141px;
+     width: 156px;
+ }
+
+ .theme {
+     width: 39px;
+     height: 29px;
+ }
+
+ .section1-sliderimg {
+     width: 32px;
+     height: 32px;
+ }
+
+ .section1-slider .slick-track {
+     height: 120px;
+ }
+
+ .section1-slider .section1-slider-item.slick-slide.slick-current.slick-active {
+     border: 1px solid rgba(243, 106, 62, 0.40);
+ }
+
+ .section1-slider .section1-slider-item.slick-slide.slick-current.slick-active div p {
+     color: var(--c1);
+ }
+
+ .section1-slider .section1-slider-item:hover {
+     border: 1px solid rgba(243, 106, 62, 0.40);
+ }
+
+ .section1-slider .section1-slider-item:hover div p {
+     color: var(--c1);
+ }
+
+ .section1-slider .slick-dots {
+     bottom: -37px !important;
+ }
+
+ .section1-slider .slick-dots li {
+     margin: 0 3px !important;
+     width: 16px !important;
+     height: 5px !important;
+     border-radius: 6px !important;
+     opacity: 0.1 !important;
+     background: var(--c2) !important;
+ }
+
+ .section1-slider .slick-dots li.slick-active {
+     width: 23px !important;
+     background: var(--c1) !important;
+     opacity: 1 !important;
+ }
+
+ .section1-slider .slick-dots li button:before {
+     content: unset;
+ }
+
+ .section1-gap {
+     row-gap: 40px;
+ }
+
+ .section1-ellipse1 {
+     width: 77px;
+     height: 66px;
+     filter: blur(100px);
+     background: var(--c1);
+     border-radius: 50%;
+     bottom: 4%;
+     left: -5%;
+     opacity: 0.8;
+ }
+
+ .section1-ellipse2 {
+     width: 77px;
+     height: 66px;
+     opacity: 0.5;
+     filter: blur(100px);
+     background: var(--c1);
+     bottom: 16%;
+     right: 0;
+ }
+
  /* media query */
  @media(min-width: 390px) {
 
@@ -416,6 +516,10 @@
 
      .button2 {
          width: 174px;
+     }
+
+     .ellipse1 {
+         left: 54px;
      }
  }
 
@@ -471,7 +575,7 @@
          width: 518px;
          height: 95px;
          border-radius: 518px;
-         filter: blur(120.5px);
+         filter: blur(118px);
          top: 33px;
          left: 16px;
      }
@@ -557,6 +661,45 @@
          width: 28px;
          height: 43px;
          transform: rotate(0);
+     }
+
+     /* main */
+     /* section1 */
+     .section1-gap {
+         row-gap: 60px;
+     }
+
+     .section1-slider .slick-track {
+         height: 141px;
+     }
+
+     .section1-sliderimg {
+         width: 35px;
+         height: 35px;
+     }
+
+     .theme {
+         width: 44px;
+         height: 33px;
+     }
+
+     .section1-ellipse1 {
+         width: 184px;
+         height: 159px;
+         filter: blur(120px);
+         top: -3%;
+         left: -8%;
+         opacity: 0.5;
+     }
+
+     .section1-ellipse2 {
+         width: 129px;
+         height: 113px;
+         background: var(--c1);
+         opacity: 0.5;
+         filter: blur(120px);
+         top: 22%;
+         right: 0;
      }
  }
 
@@ -701,6 +844,29 @@
          height: 92px;
          bottom: 22%;
          left: 0;
+     }
+
+     /* main */
+     /* section1 */
+     .section1-part2 {
+         margin: 0 25px 0 36px;
+         transform: translateY(-5px);
+     }
+
+     .max-width-499 {
+         max-width: 499px;
+     }
+
+     .section1-ellipse1 {
+         top: 8%;
+         left: -4%;
+     }
+
+     .section1-ellipse2 {
+         width: 165px;
+         height: 143px;
+         top: unset;
+         bottom: 27%;
      }
  }
 
