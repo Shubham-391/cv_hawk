@@ -31,6 +31,7 @@
      box-sizing: border-box;
      padding: 0;
      margin: 0;
+     /* outline: 1px solid red; */
  }
 
  .list-style-none {
@@ -593,8 +594,9 @@
      max-width: 1182px !important;
  }
 
- .section4-list li {
-     background: url(/assets/images/tick.png) left top no-repeat;
+ .section4-list li,
+ .section5-list li {
+     background: url(/assets/images/tick.webp) left top no-repeat;
      padding-left: 34px;
  }
 
@@ -623,6 +625,43 @@
      filter: blur(120.5px);
      bottom: 22%;
      left: 11%;
+ }
+
+ /* section5 */
+ .section5-height {
+     min-height: 897px;
+ }
+
+ .section5-resume {
+     width: 100%;
+     height: 305px;
+     object-fit: contain;
+ }
+
+ .section5-line {
+     width: 376px;
+     height: 7px;
+     bottom: -20%;
+     left: 0%;
+ }
+
+ .section5-ellipse {
+     width: 165px;
+     height: 143px;
+     background: var(--c1);
+     opacity: 0.5;
+     filter: blur(120.5px);
+     border-radius: 50%;
+ }
+
+ .section5-ellipse1 {
+     right: 0;
+     top: 33%;
+ }
+
+ .section5-ellipse2 {
+     bottom: -24%;
+     left: 2%;
  }
 
  /* media query */
@@ -881,6 +920,11 @@
      .section4-resume {
          object-fit: contain;
      }
+
+     /* section5 */
+     .section5-height {
+         min-height: 635px;
+     }
  }
 
  @media(min-width: 650px) {
@@ -1114,6 +1158,18 @@
          height: 422px;
          transform: translateY(-31px);
      }
+
+     /* section5 */
+     .section5-resume {
+         transform: translateX(-27px);
+         width: 100%;
+         height: 405px;
+         object-fit: contain;
+     }
+
+     .section5-height {
+         min-height: 704px;
+     }
  }
 
  @media(min-width: 992px) {
@@ -1127,6 +1183,12 @@
      .section2-img1 {
          width: 496px;
          height: 429px;
+     }
+
+     /* section5 */
+     .section5-resume {
+         width: 465px;
+         object-fit: unset;
      }
  }
 
