@@ -35,6 +35,47 @@
      /* outline: 1px solid red; */
  }
 
+ /* preloader */
+ #preloader {
+     z-index: 6;
+ }
+
+ #preloader img {
+     width: 70%;
+ }
+
+ .loader {
+     width: 50px;
+     height: 50px;
+     position: relative;
+     border: 5px solid #555;
+     border-top-color: #f9f9f9;
+     border-radius: 50%;
+     animation: spin 1s linear infinite;
+ }
+
+ @keyframes spin {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     100% {
+         transform: rotate(360deg);
+     }
+ }
+
+ /* back to top */
+
+ #top {
+     display: none;
+     background: none;
+     border: none;
+     width: 40px;
+     height: 40px;
+     bottom: 0;
+     right: 0;
+ }
+
  .list-style-none {
      list-style: none;
  }
@@ -834,6 +875,10 @@
          --fs-xl: 40px;
      }
 
+     #preloader img {
+         width: unset;
+     }
+
      /* header */
      .close {
          top: 39px;
@@ -1116,6 +1161,11 @@
          --fs-md: 22px;
          --fs-lg: 40px;
          --fs-xl: 52px;
+     }
+
+     #top {
+         width: 50px;
+         height: 50px;
      }
 
      /* header */

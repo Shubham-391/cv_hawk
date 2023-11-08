@@ -50,3 +50,27 @@ $('.section6-slider2').slick({
     prevArrow: '.prev2',
     nextArrow: '.next2',
 });
+
+// preloader
+const preloader = document.getElementById("preloader");
+setTimeout(() => {
+    document.getElementById("preloader").classList.add("d-none");
+    document.body.classList.remove("overflow-hidden")
+}, 2000);
+
+// back to top
+
+let topIcon = document.getElementById("top");
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+        topIcon.style.display = "flex";
+    }
+    else {
+        topIcon.style.display = "none";
+    }
+});
+
+function up() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+};
