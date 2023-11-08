@@ -1123,6 +1123,14 @@
      .btn-container {
          display: none;
      }
+
+     .section6-quotes {
+         width: 84px;
+         height: 58px;
+         object-fit: contain;
+         bottom: -54%;
+         right: -7%;
+     }
  }
 
  @media(min-width: 650px) {
@@ -1403,6 +1411,12 @@
          width: 95%;
          height: 104px;
          padding: 15px 18px 14px 18px;
+     }
+
+     .section6-quotes {
+         height: 84px;
+         top: -60%;
+         left: -3%;
      }
  }
 
