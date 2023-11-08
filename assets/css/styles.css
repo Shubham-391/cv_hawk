@@ -586,16 +586,43 @@
 
  /* section4 */
  .section4-height {
-     min-height: 629px;
+     min-height: 885px;
  }
 
  .custom-container3 {
-     max-width: 1182px;
+     max-width: 1182px !important;
  }
 
  .section4-list li {
      background: url(/assets/images/tick.png) left top no-repeat;
      padding-left: 34px;
+ }
+
+ .section4-btn {
+     padding: 17px 38px;
+     border-radius: 41px;
+     background: var(--c1);
+     border: none;
+ }
+
+ .section4-btn:hover {
+     background: var(--c9);
+ }
+
+ .section4-resume {
+     width: 100%;
+     height: 422px;
+ }
+
+ .section4-ellipse {
+     width: 165px;
+     height: 143px;
+     border-radius: 50%;
+     background: var(--c1);
+     opacity: 0.5;
+     filter: blur(120.5px);
+     bottom: 22%;
+     left: 11%;
  }
 
  /* media query */
@@ -845,6 +872,15 @@
      .section3-height {
          min-height: 488px;
      }
+
+     /* section4 */
+     .section4-height {
+         min-height: 595px;
+     }
+
+     .section4-resume {
+         object-fit: contain;
+     }
  }
 
  @media(min-width: 650px) {
@@ -1067,6 +1103,17 @@
      .section3-height {
          min-height: 664px;
      }
+
+     /* section4 */
+     .section4-height {
+         min-height: 629px;
+     }
+
+     .section4-resume {
+         width: 100%;
+         height: 422px;
+         transform: translateY(-31px);
+     }
  }
 
  @media(min-width: 992px) {
@@ -1095,5 +1142,11 @@
      .calender {
          width: 548px;
          height: 358px;
+     }
+
+     /* section4 */
+     .section4-resume {
+         width: 509px;
+         height: 422px;
      }
  }
