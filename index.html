@@ -31,8 +31,8 @@
         </div>
         <div class="position-absolute horse-shoe jump-animation"><img class="w-100 h-100"
                 src="/assets/images/hero-sec-img4.webp" alt="horseshoe"></div>
-        <div class="position-absolute brick jump-animation"><img class="w-100 h-100" src="/assets/images/hero-brick.webp"
-                alt="brick">
+        <div class="position-absolute brick jump-animation"><img class="w-100 h-100"
+                src="/assets/images/hero-brick.webp" alt="brick">
         </div>
 
 
@@ -44,27 +44,28 @@
                 <div class="nav-width d-flex justify-content-md-between justify-content-end align-items-center">
                     <div
                         class="view d-flex flex-md-row flex-column align-items-center justify-content-lg-start justify-content-md-around justify-content-center transition">
-                        <img class="position-absolute close d-md-none pointer transition" src="/assets/images/close.webp"
-                            alt="close" onclick="navbar2()">
-                        <img class="logo2 d-sm-none mb-4 pb-2 mb-sm-0 pb-sm-0" src="/assets/images/logo.webp" alt="logo">
+                        <img class="position-absolute close d-md-none pointer transition"
+                            src="/assets/images/close.webp" alt="close" onclick="navbar2()">
+                        <img class="logo2 d-sm-none mb-4 pb-2 mb-sm-0 pb-sm-0" src="/assets/images/logo.webp"
+                            alt="logo">
                         <ul
                             class="ps-0 list-style-none mb-0 d-flex nav-gap  flex-md-row flex-column align-items-center pt-1 pt-sm-0 mb-5 mb-sm-0 pb-3 pb-sm-0">
-                            <li class="c2 ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer transition"
-                                onclick="navbar2()">
-                                Home</li>
+                            <li class="ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer"
+                                onclick="navbar2()"><a class="text-decoration-none c2 transition" href="#home">
+                                    Home</a></li>
                             <li class="line d-md-none"></li>
-                            <li class="c2 ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer transition"
-                                onclick="navbar2()">
-                                About Us</li>
+                            <li class="ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer"
+                                onclick="navbar2()"><a class="text-decoration-none c2 transition" href="#about">
+                                    About Us</a></li>
                             <li class="line d-md-none"></li>
-                            <li class="c2 ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer transition"
-                                onclick="navbar2()">
-                                We'll help you
+                            <li class="ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer"
+                                onclick="navbar2()"><a class="text-decoration-none c2 transition" href="#help">
+                                    We'll help you</a>
                             </li>
                             <li class="line d-md-none"></li>
-                            <li class="c2 ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer transition"
-                                onclick="navbar2()">
-                                Testimonials
+                            <li class="ff-rubik fs-sm2 font-style-normal fw-normal line-height-normal pointer"
+                                onclick="navbar2()"><a class="text-decoration-none c2 transition" href="#testimonials">
+                                    Testimonials</a>
                             </li>
                         </ul>
                         <button
@@ -85,7 +86,7 @@
                     </div>
                 </div>
             </nav>
-            <div
+            <div id="home"
                 class="d-flex flex-grow-1 flex-column align-items-center justify-content-center mb-4 mb-sm-0 pb-2 pb-sm-0 position-relative">
                 <div class="position-absolute hero-sec-img3 jump-animation d-none d-sm-block"><img class="w-100 h-100"
                         src="/assets/images/hero-sec-img3.webp" alt="tablet image"></div>
@@ -192,7 +193,7 @@
             </div>
         </div>
         <!-- section2 -->
-        <div class="section2-height bg-c13 d-flex align-items-center position-relative">
+        <div id="about" class="section2-height bg-c13 d-flex align-items-center position-relative">
             <div><img class="section2-ball position-absolute d-none d-sm-block jump-animation"
                     src="/assets/images/hero-ball.webp" alt="ball"></div>
             <div><img class="position-absolute section2-brick d-none d-sm-block jump-animation"
@@ -221,20 +222,28 @@
             </div>
         </div>
         <!-- section3 -->
-        <div class="section3-height bg-c11 d-flex align-items-center justify-content-center position-relative overflow-hidden">
+        <div id="help"
+            class="section3-height bg-c11 d-flex align-items-center justify-content-center position-relative overflow-hidden">
             <div class="position-absolute section3-ellipse1 d-none d-md-block"></div>
             <div class="position-absolute section3-ellipse2 d-none d-md-block"></div>
-            <div class="container custom-container1 d-flex flex-wrap align-items-center flex-sm-row flex-column-reverse">
+            <div
+                class="container custom-container1 d-flex flex-wrap align-items-center flex-sm-row flex-column-reverse">
                 <div class="col-6 d-none d-sm-block">
                     <img class="calender" src="/assets/images/section3-img1.webp" alt="calender">
                 </div>
                 <div class="col-sm-6 col-12 d-flex justify-content-end">
                     <div class="max-width-556 ps-0 ps-2">
-                    <h2 class="c10 ff-rubik fs-lg font-style-normal fw-medium line-height-normal mb-3">We'll help you</h2>
-                    <p class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity80 mb-sm-4 pb-sm-3 mb-5">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the
-                    necessary details, including the date, time, and instructions for the session.</p>
-                    <img class="calender d-sm-none pb-3" src="/assets/images/section3-img1.webp" alt="calender">
-                    <button class="section3-btn c3 ff-rubik fs-sm2 font-style-normal fw-semibold line-height-normal transition mt-4 mt-sm-0">Book a Call</button>
+                        <h2 class="c10 ff-rubik fs-lg font-style-normal fw-medium line-height-normal mb-3">We'll help
+                            you</h2>
+                        <p
+                            class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity80 mb-sm-4 pb-sm-3 mb-5">
+                            Once you've booked a session, a confirmation email will be sent to the provided email
+                            address, containing all the
+                            necessary details, including the date, time, and instructions for the session.</p>
+                        <img class="calender d-sm-none pb-3" src="/assets/images/section3-img1.webp" alt="calender">
+                        <button
+                            class="section3-btn c3 ff-rubik fs-sm2 font-style-normal fw-semibold line-height-normal transition mt-4 mt-sm-0">Book
+                            a Call</button>
                     </div>
                 </div>
             </div>
@@ -243,34 +252,479 @@
         <div class="section4-height bg-c13 d-flex align-items-center">
             <div class="container custom-container3 d-flex mt-5 mt-md-0 mb-5 mb-md-0 pt-sm-4 pt-md-0 ">
                 <div class="col-sm-6 col-12 pt-sm-2 pt-md-0">
-                    <h2 class="c10 ff-rubik fs-lg font-style-normal fw-medium line-height-normal mb-3">20+ <span class="c1">Professionally designed</span> resume sections</h2>
-                    <p class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity80 mb-4 pb-1 pb-sm-0 max-width-556">Express your professional history without limitations or worry about how your resume looks</p>
+                    <h2 class="c10 ff-rubik fs-lg font-style-normal fw-medium line-height-normal mb-3">20+ <span
+                            class="c1">Professionally designed</span> resume sections</h2>
+                    <p
+                        class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity80 mb-4 pb-1 pb-sm-0 max-width-556">
+                        Express your professional history without limitations or worry about how your resume looks</p>
                     <ul class="section4-list list-style-none ps-0 mb-0">
-                        <li class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90 pb-3 mb-1 mb-sm-0">Professional sections like <span class="fw-semibold">Experience, Skills, Summary</span> and <span class="fw-semibold">Education</span></li>
-                        <li class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90 pb-3 mb-1 mb-sm-0">Professional sections like <span class="fw-semibold">Strengths, Quotes, Books, Interests</span> and <span class="fw-semibold">My Time.</span></li>
-                        <li class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90 pb-3 mb-1 mb-sm-0">Other sections like <span class="fw-semibold">Certifications, Awards, Achievements, Language</span> and <span class="fw-semibold">Reference</span></li>
+                        <li
+                            class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90 pb-3 mb-1 mb-sm-0">
+                            Professional sections like <span class="fw-semibold">Experience, Skills, Summary</span> and
+                            <span class="fw-semibold">Education</span>
+                        </li>
+                        <li
+                            class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90 pb-3 mb-1 mb-sm-0">
+                            Professional sections like <span class="fw-semibold">Strengths, Quotes, Books,
+                                Interests</span> and <span class="fw-semibold">My Time.</span></li>
+                        <li
+                            class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90 pb-3 mb-1 mb-sm-0">
+                            Other sections like <span class="fw-semibold">Certifications, Awards, Achievements,
+                                Language</span> and <span class="fw-semibold">Reference</span></li>
                     </ul>
-                    <img class="section4-resume d-sm-none mt-5 pb-2" src="/assets/images/section4-img1.webp" alt="resume">
-                    <button class="c3 ff-rubik fs-sm2 font-style-normal fw-semibold line-height-normal section4-btn mt-4 transition">Get Started</button>
+                    <img class="section4-resume d-sm-none mt-5 pb-2" src="/assets/images/section4-img1.webp"
+                        alt="resume">
+                    <button
+                        class="c3 ff-rubik fs-sm2 font-style-normal fw-semibold line-height-normal section4-btn mt-4 transition">Get
+                        Started</button>
                 </div>
-                <div class="col-6 d-none d-sm-block position-relative"><img class="section4-resume position-relative z-2" src="/assets/images/section4-img1.webp" alt="resume">
-                <div class="position-absolute section4-ellipse d-none d-sm-block"></div></div>
+                <div class="col-6 d-none d-sm-block position-relative"><img
+                        class="section4-resume position-relative z-2" src="/assets/images/section4-img1.webp"
+                        alt="resume">
+                    <div class="position-absolute section4-ellipse d-none d-sm-block"></div>
+                </div>
             </div>
         </div>
         <!-- section5 -->
         <div class="section5-height bg-c11 d-flex align-items-center position-relative overflow-hidden">
             <div class="position-absolute section5-ellipse1 d-none d-md-block section5-ellipse"></div>
             <div class="position-absolute section5-ellipse section5-ellipse2 d-none d-md-block"></div>
-            <div class="container custom-container1 d-flex flex-sm-row flex-column-reverse row-gap-3 flex-wrap overflow-hidden">
-                <div class="col-12 col-sm-6"><img class="section5-resume" src="/assets/images/section5-img1.png" alt="resume"></div>
+            <div
+                class="container custom-container1 d-flex flex-sm-row flex-column-reverse row-gap-3 flex-wrap overflow-hidden">
+                <div class="col-12 col-sm-6"><img class="section5-resume" src="/assets/images/section5-img1.webp"
+                        alt="resume"></div>
                 <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
-                    <h2 class="c10 ff-rubik fs-lg font-style-normal fw-medium line-height-normal mb-3 mb-md-4">Resume trailoring based on the <span class="c1 position-relative"><img class="position-absolute d-none d-xl-block section5-line" src="/assets/images/hero-sec-img1.webp" alt="line">job you're applying</span> for</h2>
-                    <p class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity80 mb-sm-4 mb-3 pb-1 pb-sm-0">Quickly ensure that your resume covers key skills and experience by pasting the job ad you're applying for</p>
+                    <h2 class="c10 ff-rubik fs-lg font-style-normal fw-medium line-height-normal mb-3 mb-md-4">Resume
+                        trailoring based on the <span class="c1 position-relative"><img
+                                class="position-absolute d-none d-xl-block section5-line"
+                                src="/assets/images/hero-sec-img1.webp" alt="line">job you're applying</span> for</h2>
+                    <p
+                        class="c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity80 mb-sm-4 mb-3 pb-1 pb-sm-0">
+                        Quickly ensure that your resume covers key skills and experience by pasting the job ad you're
+                        applying for</p>
                     <ul class="section5-list list-style-none ps-0 mb-0">
-                        <li class="pb-3 c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90">Skills and experience analysis</li>
-                        <li class="pb-3 c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90">Actionable Checklist of what else to add to your resume</li>
-                        <li class="pb-3 c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90">Instant comparison between your resume and the job posting</li>
+                        <li
+                            class="pb-3 c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90">
+                            Skills and experience analysis</li>
+                        <li
+                            class="pb-3 c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90">
+                            Actionable Checklist of what else to add to your resume</li>
+                        <li
+                            class="pb-3 c2 ff-rubik user-friendly font-style-normal fw-normal line-height-154 opacity90">
+                            Instant comparison between your resume and the job posting</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+        <!-- section6 -->
+        <div id="testimonials" class="section6-height bg-c13 d-flex align-items-center">
+            <div class="container custom-container4 px-0 position-relative">
+                <div class="section6-px">
+                    <h2
+                        class="c10 ff-rubik fs-lg font-style-normal fw-medium line-height-normal mb-md-5 mb-sm-4 mb-4 pb-1 pb-sm-3">
+                        What our Clients Say</h2>
+                    <div class="section6-slider1 section6-slider-item2">
+                        <div>
+                            <div class="d-flex flex-column gap-4">
+                                <div class="d-flex section6-item1-height">
+                                    <div class="col-xl-4 col-6 d-flex align-items-xl-center align-items-start">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Sit urna ornare sed quam molestie sit placerat convallis. Ac
+                                                    condimentum mollis malesuada placerat in placerat</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img1.webp"
+                                                        alt="a man"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Darrell Steward</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-6 d-flex align-items-xl-start align-items-end">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam
+                                                    vel at non faucibus viverra.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img2.webp"
+                                                        alt="a woman"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Savannah Nguyen</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-6 d-flex align-items-xl-end d-none d-xl-block">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus
+                                                    praesent nulla ut a id.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img3.webp"
+                                                        alt="a granny"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Esther Howard</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex section6-item2-height">
+                                    <div class="col-6 d-flex align-items-start justify-content-end">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis
+                                                    leo leo massa elementum sit praesent eu.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img4.webp"
+                                                        alt="a man"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Jenny Wilson</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-items-end justify-content-center">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit
+                                                    neque sem scelerisque tellus magna urna.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img5.webp"
+                                                        alt="a man"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Wade Warren</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div>
+                            <div class="d-flex flex-column gap-4">
+                                <div class="d-flex section6-item1-height">
+                                    <div class="col-xl-4 col-6 d-flex align-items-xl-center  d-none d-xl-block">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Sit urna ornare sed quam molestie sit placerat convallis. Ac
+                                                    condimentum mollis malesuada placerat in placerat</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img1.webp"
+                                                        alt="a man"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Darrell Steward</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-6 d-flex align-items-xl-start align-items-start">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam
+                                                    vel at non faucibus viverra.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img2.webp"
+                                                        alt="a woman"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Savannah Nguyen</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-6 d-flex align-items-xl-end align-items-end">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus
+                                                    praesent nulla ut a id.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img3.webp"
+                                                        alt="a granny"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Esther Howard</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex section6-item2-height">
+                                    <div class="col-6 d-flex align-items-start justify-content-end">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis
+                                                    leo leo massa elementum sit praesent eu.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img4.webp"
+                                                        alt="a man"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Jenny Wilson</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 d-flex align-items-end justify-content-center">
+                                        <div>
+                                            <div class="section6-box position-relative mb-4">
+                                                <img class="position-absolute triangle"
+                                                    src="/assets/images/triangle.webp" alt="triangle">
+                                                <p
+                                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                                    Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit
+                                                    neque sem scelerisque
+                                                    tellus magna urna.</p>
+                                            </div>
+                                            <div class="pt-3 d-flex gap-2 ps-3">
+                                                <div><img class="section6-img" src="/assets/images/section6-img5.webp"
+                                                        alt="a man"></div>
+                                                <div>
+                                                    <p
+                                                        class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                                        Wade Warren</p>
+                                                    <img class="stars" src="/assets/images/section6-stars.webp"
+                                                        alt="stars">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section6-slider2 section6-slider-item">
+                        <div>
+                            <div class="section6-box position-relative mb-sm-4 mb-3">
+                                <img class="position-absolute triangle" src="/assets/images/triangle.webp"
+                                    alt="triangle">
+                                <p
+                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                    Sit urna ornare sed quam molestie sit placerat convallis. Ac
+                                    condimentum mollis malesuada placerat in placerat</p>
+                            </div>
+                            <div class="pt-3 d-flex gap-2 ps-3">
+                                <div><img class="section6-img" src="/assets/images/section6-img1.webp" alt="a man"></div>
+                                <div>
+                                    <p class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                        Darrell Steward</p>
+                                    <img class="stars" src="/assets/images/section6-stars.webp" alt="stars">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="section6-box position-relative mb-sm-4 mb-3">
+                                <img class="position-absolute triangle" src="/assets/images/triangle.webp"
+                                    alt="triangle">
+                                <p
+                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                    Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam
+                                    vel at non faucibus viverra.</p>
+                            </div>
+                            <div class="pt-3 d-flex gap-2 ps-3">
+                                <div><img class="section6-img" src="/assets/images/section6-img2.webp" alt="a woman">
+                                </div>
+                                <div>
+                                    <p class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                        Savannah Nguyen</p>
+                                    <img class="stars" src="/assets/images/section6-stars.webp" alt="stars">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="section6-box position-relative mb-sm-4 mb-3">
+                                <img class="position-absolute triangle" src="/assets/images/triangle.webp"
+                                    alt="triangle">
+                                <p
+                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                    Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus
+                                    praesent nulla ut a id.</p>
+                            </div>
+                            <div class="pt-3 d-flex gap-2 ps-3">
+                                <div><img class="section6-img" src="/assets/images/section6-img3.webp" alt="a granny">
+                                </div>
+                                <div>
+                                    <p class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                        Esther Howard</p>
+                                    <img class="stars" src="/assets/images/section6-stars.webp" alt="stars">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="section6-box position-relative mb-sm-4 mb-3">
+                                <img class="position-absolute triangle" src="/assets/images/triangle.webp"
+                                    alt="triangle">
+                                <p
+                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                    Urna ac eu cras pellentesque scelerisque et. Vestibulum sed felis
+                                    leo leo massa elementum sit praesent eu.</p>
+                            </div>
+                            <div class="pt-3 d-flex gap-2 ps-3">
+                                <div><img class="section6-img" src="/assets/images/section6-img4.webp" alt="a man"></div>
+                                <div>
+                                    <p class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                        Jenny Wilson</p>
+                                    <img class="stars" src="/assets/images/section6-stars.webp" alt="stars">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="section6-box position-relative mb-sm-4 mb-3">
+                                <img class="position-absolute triangle" src="/assets/images/triangle.webp"
+                                    alt="triangle">
+                                <p
+                                    class="c2 ff-rubik section6-fs font-style-normal fw-normal line-height-154 opacity80 mb-0">
+                                    Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem
+                                    scelerisque
+                                    tellus magna urna.</p>
+                            </div>
+                            <div class="pt-3 d-flex gap-2 ps-3">
+                                <div><img class="section6-img" src="/assets/images/section6-img5.webp" alt="a man"></div>
+                                <div>
+                                    <p class="c10 ff-rubik fs-sm3 font-style-normal fw-normal line-height-normal mb-0">
+                                        Wade Warren</p>
+                                    <img class="stars" src="/assets/images/section6-stars.webp" alt="stars">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="transition prev1 section6-slider-item2 position-absolute">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="transition"
+                                d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z"
+                                fill="#F36A3E" />
+                        </svg>
+                    </button>
+                    <button class="transition next1 section6-slider-item2 position-absolute">
+                        <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="transition"
+                                d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z"
+                                fill="#F36A3E" />
+                        </svg>
+
+                    </button>
+                    <button
+                        class="transition prev2 btn-display section6-slider-item align-items-center justify-content-center position-absolute">
+                        <svg width="16" height="16" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="transition"
+                                d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z"
+                                fill="#F36A3E" />
+                        </svg>
+                    </button>
+                    <button
+                        class="transition next2 btn-display section6-slider-item align-items-center justify-content-center position-absolute">
+                        <svg width="16" height="16" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="transition"
+                                d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z"
+                                fill="#F36A3E" />
+                        </svg>
+
+                    </button>
+                    <div
+                        class="btn-container position-absolute d-flex d-sm-none justify-content-between align-items-center">
+                        <button class="transition prev2 d-flex section6-slider-item align-items-center justify-content-center">
+                            <svg width="16" height="16" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="transition"
+                                    d="M11.0351 3.42412L5.54873 9.05241C5.45237 9.15127 5.39844 9.28386 5.39844 9.42191C5.39844 9.55996 5.45237 9.69255 5.54873 9.79141L11.0351 15.4218C11.08 15.4679 11.1337 15.5046 11.193 15.5296C11.2523 15.5546 11.316 15.5675 11.3803 15.5675C11.4446 15.5675 11.5083 15.5546 11.5676 15.5296C11.6269 15.5046 11.6806 15.4679 11.7254 15.4218C11.8178 15.3273 11.8695 15.2004 11.8695 15.0682C11.8695 14.936 11.8178 14.8091 11.7254 14.7146L6.56618 9.42191L11.7254 4.1303C11.8175 4.0358 11.869 3.90911 11.869 3.77721C11.869 3.6453 11.8175 3.51861 11.7254 3.42412C11.6806 3.37801 11.6269 3.34137 11.5676 3.31635C11.5083 3.29133 11.4446 3.27844 11.3803 3.27844C11.316 3.27844 11.2523 3.29133 11.193 3.31635C11.1337 3.34137 11.08 3.37801 11.0351 3.42412Z"
+                                    fill="#F36A3E" />
+                            </svg>
+
+                        </button>
+                        <button class="transition next2 d-flex section6-slider-item align-items-center justify-content-center">
+                            <svg width="16" height="16" viewBox="0 0 29 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path class="transition"
+                                    d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z"
+                                    fill="#F36A3E" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

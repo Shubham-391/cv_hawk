@@ -36,3 +36,17 @@ $('.section1-slider').slick({
         }
     ]
 });
+$('.section6-slider1').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '.prev1',
+    nextArrow: '.next1',
+});
+$('.section6-slider2').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '.prev2',
+    nextArrow: '.next2',
+});
