@@ -42,6 +42,7 @@ $('.section6-slider1').slick({
     slidesToScroll: 1,
     prevArrow: '.prev1',
     nextArrow: '.next1',
+    fade: true,
 });
 $('.section6-slider2').slick({
     infinite: true,
@@ -49,6 +50,7 @@ $('.section6-slider2').slick({
     slidesToScroll: 1,
     prevArrow: '.prev2',
     nextArrow: '.next2',
+    fade: true,
 });
 
 // preloader
